@@ -1,0 +1,15 @@
+https://en.wikipedia.org/wiki/Moby_Project
+    https://archive.org/stream/mobywordlists03201gut/aaREADME.txt
+    https://archive.org/details/mobywordlists03201gut
+        using: https://ia804507.us.archive.org/26/items/mobywordlists03201gut/COMMON.TXT
+
+
+Unused, but could be helpful:
+    https://www.wordgamedictionary.com/enable/download/enable.txt
+        scrabble word list
+    http://wordlist.aspell.net/
+        SCOWL (Spell Checker Oriented Word Lists)
+    https://developer.oxforddictionaries.com/
+        Oxford Dictionaries API
+        Requires signing up
+

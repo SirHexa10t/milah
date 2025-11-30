@@ -1,0 +1,38 @@
+[package]
+name = "wasm_wordle"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+crate-type = ["cdylib"]
+
+
+[dependencies]
+wasm-bindgen = "0.2.106"
+wasm-bindgen-futures = "0.4"
+
+
+# Use only real features that exist in web-sys:
+web-sys = { version = "0.3.83", features = [
+    "Window",
+    "Document",
+    "Element",
+    "HtmlElement",
+    "Node",
+    "KeyboardEvent",
+    "EventTarget",
+    "HtmlDivElement",
+    "HtmlParagraphElement",
+    "DomTokenList",
+    "console"
+] }
+
+
+console_error_panic_hook = "0.1.7"
+js-sys = "0.3.83"
+
+
+[profile.release]
+opt-level = "z"
+lto = true
